@@ -1,0 +1,136 @@
+========================================================================
+LAPORAN ANALISIS THRESHOLD EMPIRIS -- VBD INDONESIA 2012-2026
+========================================================================
+Grid resolusi    : 0.01 deg (~1.1 km per sel)
+Total baris VBD  : 17,833,394
+Total piksel unik: 1,923,499
+
+------------------------------------------------------------------------
+STATISTIK DISTRIBUSI FREKUENSI KUNJUNGAN PER PIKSEL (hari)
+------------------------------------------------------------------------
+  Minimum       : 1 hari
+  Maximum       : 13,279 hari
+  Mean          : 9.3 hari
+  Median (P50)  : 2.0 hari
+
+  PERSENTIL DISTRIBUSI FREKUENSI:
+    P50    =      2.0 hari
+    P60    =      3.0 hari
+    P70    =      5.0 hari
+    P75    =      7.0 hari
+    P80    =     10.0 hari
+    P85    =     15.0 hari
+    P90    =     22.0 hari
+    P91    =     24.0 hari
+    P92    =     26.0 hari
+    P93    =     29.0 hari
+    P94    =     33.0 hari
+    P95    =     37.0 hari
+    P96    =     44.0 hari
+    P97    =     53.0 hari
+    P98    =     68.0 hari
+    P99    =    101.0 hari
+    P99.5  =    146.0 hari
+    P99.9  =    322.0 hari
+
+------------------------------------------------------------------------
+DISTRIBUSI PIKSEL PER BRACKET FREKUENSI
+------------------------------------------------------------------------
+  Bracket                               Jumlah Piksel   % Piksel     Cum %
+  ----------------------------------------------------------------------
+  Sangat Jarang (1-4 hari)                  1,283,156     66.71%    66.71%
+  Jarang (5-9 hari)                           233,584     12.14%    78.85%
+  Kadang (10-19 hari)                         191,360      9.95%    88.80%
+  Aktif Rendah (20-49 hari)                   150,863      7.84%    96.64%
+  Aktif Sedang (50-99 hari)                    44,775      2.33%    98.97%
+  Aktif Tinggi (100-199 hari)                  14,568      0.76%    99.73%
+  Hotspot (200-499 hari)                        4,386      0.23%    99.96%
+  Core Hotspot (500-999 hari)                     579      0.03%    99.99%
+  Inti Permanen (>=1000 hari)                     227      0.01%   100.00%
+
+------------------------------------------------------------------------
+REKOMENDASI THRESHOLD BERDASARKAN DATA EMPIRIS
+------------------------------------------------------------------------
+  DISPLAY  (P75 -- tampilkan 25% piksel teratas) : >= 7 hari
+  STANDARD (P80 -- tampilkan 20% piksel teratas) : >= 10 hari
+  HOTSPOT  (P90 -- tampilkan 10% piksel teratas) : >= 22 hari
+  CORE     (P95 -- tampilkan  5% piksel teratas) : >= 37 hari
+  INTI     (P99 -- tampilkan  1% piksel teratas) : >= 101 hari
+  APEX    (P99.5 -- tampilkan 0.5% teratas)      : >= 146 hari
+
+  INTERPRETASI:
+    - Threshold 'Instruksi1.md' (100 hari) setara Persentil: P99.0
+    - Jumlah piksel yg lolos threshold 100 hari : 19,761 piksel (1.03%)
+    - Jumlah piksel yg lolos threshold 50 hari  : 64,536 piksel (3.36%)
+    - Jumlah piksel yg lolos threshold 200 hari : 5,193 piksel (0.27%)
+
+------------------------------------------------------------------------
+DISTRIBUSI RADIANCE (nW/cm2/sr) -- SAMPEL
+------------------------------------------------------------------------
+  Sampel n      : 500,000
+  Mean          : 377.582
+  Median (P50)  : 6.377
+
+  PERSENTIL RADIANCE:
+    P25    =        2.121 nW/cm2/sr
+    P50    =        6.377 nW/cm2/sr
+    P75    =       20.137 nW/cm2/sr
+    P90    =       69.087 nW/cm2/sr
+    P95    =      118.898 nW/cm2/sr
+    P99    =      344.688 nW/cm2/sr
+    P99.5  =      779.761 nW/cm2/sr
+
+  Bracket                              Jumlah        %
+  ----------------------------------------------------
+  Ultra-low (<0.5)                      7,139    1.43%
+  Very low  (0.5-2)                   111,695   22.34%
+  Low       (2-10)                    184,483   36.90%
+  Med-low   (10-50)                   129,746   25.95%
+  Medium    (50-200)                   56,535   11.31%
+  High      (200-1000)                  8,378    1.68%
+  Very High (>1000)                     2,024    0.40%
+
+------------------------------------------------------------------------
+DISTRIBUSI DETEKSI PER WPP (Top 20)
+------------------------------------------------------------------------
+  WPP                                           Deteksi        %
+  --------------------------------------------------------------
+  WPP712                                      4,754,207   41.80%
+  WPP711                                      1,867,481   16.42%
+  WPP713                                      1,153,715   10.14%
+  WPP718                                        868,494    7.64%
+  WPP572                                        629,126    5.53%
+  WPP571                                        518,182    4.56%
+  WPP573                                        463,940    4.08%
+  ARMM                                          361,135    3.18%
+  WPP714                                        227,086    2.00%
+  WPP716                                        216,815    1.91%
+  Region IX                                     112,382    0.99%
+  WPP715                                        112,156    0.99%
+  WPP717                                         44,689    0.39%
+  Region IV-B                                    32,838    0.29%
+  Region XI                                       8,774    0.08%
+  Region XII                                      2,666    0.02%
+  Region XIII                                       182    0.00%
+  Region X                                            1    0.00%
+
+------------------------------------------------------------------------
+DISTRIBUSI DETEKSI PER TAHUN
+------------------------------------------------------------------------
+   Tahun      Deteksi        %
+  ------------------------------
+    2012      878,381    4.93%
+    2013    1,051,962    5.90%
+    2014    1,266,049    7.10%
+    2015    1,332,579    7.47%
+    2016    1,228,336    6.89%
+    2017    1,128,860    6.33%
+    2018    1,279,513    7.17%
+    2019    1,546,490    8.67%
+    2020    1,501,132    8.42%
+    2021    1,443,713    8.10%
+    2022    1,164,335    6.53%
+    2023    1,422,510    7.98%
+    2024    1,054,522    5.91%
+    2025    1,074,187    6.02%
+    2026      460,825    2.58%
