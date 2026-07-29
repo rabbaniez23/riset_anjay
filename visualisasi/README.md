@@ -3,6 +3,15 @@
 Folder ini berisi visualisasi **pola penangkapan ikan** dari data VIIRS satelit NOAA,
 direvisi berdasarkan komentar dosen.
 
+## Dataset (Unduh Hasil Data Cleaning)
+
+Karena keterbatasan ukuran berkas di GitHub repositori (< 100 MB per file), dataset hasil pembersihan (**cleaned_data**) berukuran total ~3.85 GB diunggah di **GitHub Release**:
+
+* 📦 **[Cleaned Dataset Lengkap (15 Tahun - 2012 s.d. 2026)](https://github.com/rabbaniez23/riset_anjay/releases/download/v1.0.0-dataset/viirs_clean_all.zip)** (~358 MB ZIP / 2.1 GB CSV) — Berisi gabungan 14,2 juta deteksi kapal.
+* 📂 **[Dataset Terpisah Per Tahun (2012-2026)](https://github.com/rabbaniez23/riset_anjay/releases/download/v1.0.0-dataset/viirs_clean_yearly.zip)** (~356 MB ZIP / 1.75 GB folder) — Berisi folder data tahunan terpisah.
+
+Silakan unduh berkas di atas dan ekstrak ke folder `visualisasi/output/cleaned_data/` sebelum menjalankan visualisasi.
+
 ---
 
 ## Cara Menjalankan
