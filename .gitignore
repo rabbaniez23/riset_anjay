@@ -2,3 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Output directories with large CSVs
+visualisasi/output/
+
